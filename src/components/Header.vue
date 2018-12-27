@@ -30,7 +30,7 @@ export default {
 	justify-content: center;
 }
 .header{
-	height: 100px;
+	height: 120px;
 	background: rgba(255,255,100,0);
 	position: fixed;
 	top: 0;
@@ -50,7 +50,7 @@ export default {
 }
 .header .nav li{
 	margin-left: 40px;
-	font-family:  futura std,Arial,"Hiragino Sans GB","Microsoft Yahei","微软雅黑",STHeiti,sans-serif;
+	font-family:  futura std,Arial,"Microsoft Yahei","微软雅黑",sans-serif;
 	font-weight: bold;
 }
 .header .nav a{
