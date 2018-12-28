@@ -3,6 +3,11 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+// import VueParticles from 'vue-particles'
+import RouteTransition from 'vue-route-transition'
+
+Vue.use(RouteTransition)
+// Vue.use(VueParticles)
 
 Vue.config.productionTip = false
 
