@@ -55,7 +55,7 @@ export default {
 }
 .header .nav a{
 	text-decoration: none;
-	color: white;
+	color: #dedede;
 }
 
 

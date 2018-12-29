@@ -4,7 +4,7 @@
         <div class="project-item-left">
           <router-link to="/project1" tag="div">
             <div class="box">
-                <img src="../assets/projects/1.jpg" class="project-img">
+                <img src="../assets/projects/1/title.jpg" class="project-img">
                 <div class="box-content">
                     <div class="inner-content">
                         <h3 class="title">project 1</h3>

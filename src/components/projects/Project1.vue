@@ -1,7 +1,20 @@
 <template>
     <div class="project1-container">
         <div class="about-me-text">
-         project1
+         <!-- project1 -->
+        </div>
+        <div class="project-img">
+          <img src="../../assets/projects/1/1.jpg">
+          <img src="../../assets/projects/1/2.jpg">
+          <img src="../../assets/projects/1/3.jpg">
+          <img src="../../assets/projects/1/4.jpg">
+          <img src="../../assets/projects/1/5.jpg">
+          <img src="../../assets/projects/1/6.jpg">
+          <img src="../../assets/projects/1/7.jpg">
+          <img src="../../assets/projects/1/8.jpg">
+          <img src="../../assets/projects/1/9.jpg">
+          <img src="../../assets/projects/1/10.jpg">
+          <img src="../../assets/projects/1/11.jpg">
         </div>
     </div>
 </template>
@@ -21,16 +34,20 @@ export default {
 <style scoped>
 .project1-container{
   color: white;
-  padding: 150px 200px 0 200px;
+  padding: 150px 0px 0 0px;
   display: flex;
   justify-content: space-between;
-  background-image: url('../../assets/projects/1.jpg');
+  /*background-image: url('../../assets/projects/1/title.jpg');*/
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  height: 100%;
+  /*height: 100%;*/
+  background-attachment: fixed;
 }
 .about-me-text{
   width: 400px;
 }
-
+.project-img img{
+  width: 100%;
+  vertical-align: bottom;
+}
 </style>
