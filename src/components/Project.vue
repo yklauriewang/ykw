@@ -21,10 +21,10 @@
         <div class="project-item-right">
           <router-link to="/project2" tag="div">
             <div class="box">
-                <img src="../assets/projects/2.jpg" class="project-img">
+                <img src="../assets/projects/2/title.jpg" class="project-img">
                 <div class="box-content">
                     <div class="inner-content">
-                        <h3 class="title">project 2</h3>
+                        <h3 class="title">happiness seeds</h3>
                         <span class="post">...</span>
                     </div>
                     <ul class="icon">
@@ -37,10 +37,10 @@
         <div class="project-item-left">
           <router-link to="/project3" tag="div">
             <div class="box">
-                <img src="../assets/projects/3.jpg" class="project-img">
+                <img src="../assets/projects/3/title.jpg" class="project-img">
                 <div class="box-content">
                     <div class="inner-content">
-                        <h3 class="title">project 3</h3>
+                        <h3 class="title">EZALOR</h3>
                         <span class="post">...</span>
                     </div>
                     <ul class="icon">
@@ -53,7 +53,7 @@
         <div class="project-item-right">
           <router-link to="/project4" tag="div">
             <div class="box">
-                <img src="../assets/projects/4.jpg" class="project-img">
+                <img src="../assets/projects/4/title.jpg" class="project-img">
                 <div class="box-content">
                     <div class="inner-content">
                         <h3 class="title">project 4</h3>
@@ -69,7 +69,7 @@
         <div class="project-item-left">
           <router-link to="/project5" tag="div">
             <div class="box">
-                <img src="../assets/projects/5.jpg" class="project-img">
+                <img src="../assets/projects/5/title.jpg" class="project-img">
                 <div class="box-content">
                     <div class="inner-content">
                         <h3 class="title">project 5</h3>
@@ -85,7 +85,7 @@
         <div class="project-item-right">
           <router-link to="/project6" tag="div">
             <div class="box">
-                <img src="../assets/projects/6.jpg" class="project-img">
+                <img src="../assets/projects/6/title.jpg" class="project-img">
                 <div class="box-content">
                     <div class="inner-content">
                         <h3 class="title">project 6</h3>
@@ -143,13 +143,12 @@ export default {
   width: 400px;
 }
 
-
-
 .box{
     border-radius: 10px;
     overflow: hidden;
-    perspective: 800px;
+    perspective: 600px;
     position: relative;
+    width: 700px;
 }
  
 .box:before{
