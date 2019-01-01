@@ -121,7 +121,7 @@ export default {
 <style scoped>
 .project-container{
   color: white;
-  padding: 150px 160px 150px 160px;
+  padding: 150px 10% 150px 10%;
   background-color: black;
   height: auto 100%;
 }
@@ -148,14 +148,14 @@ export default {
     overflow: hidden;
     perspective: 600px;
     position: relative;
-    width: 700px;
+    width: 400px;
 }
  
 .box:before{
     content: "";
     width: 100%;
     height: 100%;
-    background: linear-gradient(36deg, #272b66 42.34%, transparent 42.34%) 0 0,
+    /* background: linear-gradient(36deg, #272b66 42.34%, transparent 42.34%) 0 0,
     linear-gradient(72deg, #2d559f 75.48%, transparent 75.48%) 0 0,
     linear-gradient(-36deg, #9ac147 42.34%, transparent 42.34%) 100% 0,
     linear-gradient(-72deg, #639b47 75.48%, transparent 75.48%) 100% 0,
@@ -163,7 +163,18 @@ export default {
     linear-gradient(72deg, transparent 24.52%, #f7941e 24.52%) 100% 100%,
     linear-gradient(-36deg, transparent 57.66%, #662a6c 57.66%) 0 100%,
     linear-gradient(-72deg, transparent 24.52%, #9a1d34 24.52%) 0 100%,
-    #43a1cd linear-gradient(#ba3e2e, #ba3e2e) 50% 100%;
+    #43a1cd linear-gradient(#ba3e2e, #ba3e2e) 50% 100%; */
+
+    background: linear-gradient(36deg, #404150 42.34%, transparent 42.34%) 0 0,
+    linear-gradient(72deg, #404150 75.48%, transparent 75.48%) 0 0,
+    linear-gradient(-36deg, #404150 42.34%, transparent 42.34%) 100% 0,
+    linear-gradient(-72deg, #404150 75.48%, transparent 75.48%) 100% 0,
+    linear-gradient(36deg, transparent 57.66%, #404150 57.66%) 100% 100%,
+    linear-gradient(72deg, transparent 24.52%, #404150 24.52%) 100% 100%,
+    linear-gradient(-36deg, transparent 57.66%, #404150 57.66%) 0 100%,
+    linear-gradient(-72deg, transparent 24.52%, #404150 24.52%) 0 100%,
+    #404150 linear-gradient(#404150, #404150) 50% 100%;
+    
     background-repeat: no-repeat;
     background-size: 50% 50%;
     opacity: 0;
