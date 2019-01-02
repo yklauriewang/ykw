@@ -18,9 +18,14 @@ export default {
 </script>
 
 <style>
+@font-face{
+     font-family: 'FuturaStd'; 
+     src: url('assets/font/FuturaStd.otf');
+}
 html, body{
   height: 100%;
   margin: 0;
+  font-family: 'FuturaStd'
 }
 #app {
   height: 100%;

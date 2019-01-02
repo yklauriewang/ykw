@@ -48,10 +48,15 @@ export default {
 	list-style: none;
 	display: flex;
 }
+@font-face{
+     font-family: 'FuturaStd'; 
+     src: url('../assets/font/FuturaStd.otf');
+}
 .header .nav li{
 	margin-left: 40px;
-	font-family:  futura std,Arial,"Microsoft Yahei","微软雅黑",sans-serif;
-	font-weight: bold;
+	font-family: 'FuturaStd';
+	/*font-family:  'FuturaStd',Arial,"Microsoft Yahei","微软雅黑",sans-serif;*/
+	/*font-weight: bold;*/
 }
 .header .nav a{
 	text-decoration: none;
@@ -68,7 +73,7 @@ export default {
  height: 50px;
  line-height: 50px;
  text-align: center;
- font-family: 'Ubuntu', sans-serif;
+ font-family: 'FuturaStd', sans-serif;
  font-size: 15px;
  font-weight: bold;
  text-decoration: none;
