@@ -53,23 +53,22 @@ export default {
      src: url('../assets/font/FuturaStd.otf');
 }
 .header .nav li{
-	margin-left: 40px;
+	margin-left: 10px;
 	font-family: 'FuturaStd';
 	/*font-family:  'FuturaStd',Arial,"Microsoft Yahei","微软雅黑",sans-serif;*/
-	/*font-weight: bold;*/
+	font-weight: bold;
 }
 .header .nav a{
 	text-decoration: none;
 	color: #dedede;
 }
 
-
 .button {
  display: block;
  position: relative;
  background: rgba(255,255,100,0);
  color: #fff;
- width: 160px;
+ width: 130px;
  height: 50px;
  line-height: 50px;
  text-align: center;

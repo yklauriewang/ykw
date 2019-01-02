@@ -32,6 +32,9 @@ export default {
     return {
       msg: ''
     }
+  },
+  created () {
+    window.scrollTo(0,0);
   }
 }
 </script>
