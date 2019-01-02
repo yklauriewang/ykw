@@ -4,20 +4,18 @@
          <!-- project1 -->
         </div>
         <div class="project-img">
-          <!-- <img src="../../assets/projects/1/1.jpg">
-          <img src="../../assets/projects/1/2.jpg">
-          <img src="../../assets/projects/1/3.jpg">
-          <img src="../../assets/projects/1/4.jpg">
-          <img src="../../assets/projects/1/5.jpg">
-          <img src="../../assets/projects/1/6.jpg">
-          <img src="../../assets/projects/1/7.jpg">
-          <img src="../../assets/projects/1/8.jpg">
-          <img src="../../assets/projects/1/9.jpg">
-          <img src="../../assets/projects/1/10.jpg">
-          <img src="../../assets/projects/1/11.jpg">
+          <img src="../../assets/projects/3/3.jpg">
+          <img src="../../assets/projects/3/4.jpg">
+          <img src="../../assets/projects/3/5.jpg">
+          <img src="../../assets/projects/3/6.jpg">
+          <img src="../../assets/projects/3/7.jpg">
+          <img src="../../assets/projects/3/8.jpg">
+          <img src="../../assets/projects/3/9.jpg">
+          <img src="../../assets/projects/3/10.jpg">
+          <img src="../../assets/projects/3/11.jpg">
           <div class="video-container">
-            <iframe src="https://www.youtube.com/embed/N_Otm0XO49k?html5=1" width="800" height="500"></iframe>
-          </div> -->
+            <!-- <iframe src="https://www.youtube.com/embed/N_Otm0XO49k?html5=1" width="800" height="500"></iframe> -->
+          </div>
           <!-- <video src="https://www.youtube.com/31ac07ca-d5fb-4cf5-b47a-c322fcf0bd06" controls width="400" height="300"></video> -->
           <!-- <video preload="" style="" src="blob:https://player.vimeo.com/05f4ea29-94c6-464c-b5da-77fe3769ecc5" controls width="400" height="300"></video> -->
         </div>
@@ -40,7 +38,7 @@ export default {
 <style scoped>
 .project1-container{
   color: white;
-  padding: 150px 0px 0 0px;
+  padding: 150px 130px 0 130px;
   display: flex;
   justify-content: space-between;
   /*background-image: url('../../assets/projects/1/title.jpg');*/
